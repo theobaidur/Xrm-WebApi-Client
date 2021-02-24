@@ -33,6 +33,7 @@
  */
 (function (undefined) {
     "use strict";
+    var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     var WebApiClient = {};
 
     var batchName = "batch_UrlLimitExeedingRequest";
